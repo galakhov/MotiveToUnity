@@ -1,7 +1,7 @@
 Originally created at the USC World Building Media Lab
 worldbuilding.usc.edu
 
-EDITED BY DMITRI G.
+IMPROVED BY DMITRI G.
 
 Release Notes:
 
