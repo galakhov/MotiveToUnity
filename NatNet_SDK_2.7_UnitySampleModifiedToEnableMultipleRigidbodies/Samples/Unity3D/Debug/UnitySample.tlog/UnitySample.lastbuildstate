@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v120:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit
+Debug|Win32|C:\OptiTrack\MotiveToUnity_v1\NatNet_SDK_2.7_UnitySampleModifiedToEnableMultipleRigidbodies\Samples\|

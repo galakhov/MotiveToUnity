@@ -1,0 +1,19 @@
+﻿Build started 15.07.2015 18:24:22.
+     1>Project "D:\_bachelor_project_\MotiveToUnity_v2.23\NatNet_SDK_2.7_UnitySampleModifiedToEnableMultipleRigidbodies\Samples\Unity3D\UnitySample.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\include /I..\..\include /I..\..\lib /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt UnitySample.cpp
+         UnitySample.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\_bachelor_project_\MotiveToUnity_v2.23\NatNet_SDK_2.7_UnitySampleModifiedToEnableMultipleRigidbodies\Samples\\bin\UnitySample.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"\v110-x86-Release\\" ..\..\lib\NatNetLibStatic.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:\_bachelor_project_\MotiveToUnity_v2.23\NatNet_SDK_2.7_UnitySampleModifiedToEnableMultipleRigidbodies\Samples\\bin\UnitySample.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\_bachelor_project_\MotiveToUnity_v2.23\NatNet_SDK_2.7_UnitySampleModifiedToEnableMultipleRigidbodies\Samples\\bin\UnitySample.lib" /MACHINE:X86 /SAFESEH 
+          Release\UnitySample.obj
+         Release\tinystr.obj
+         Release\tinyxml.obj
+         Release\tinyxmlerror.obj
+         Release\tinyxmlparser.obj
+         UnitySample.vcxproj -> D:\_bachelor_project_\MotiveToUnity_v2.23\NatNet_SDK_2.7_UnitySampleModifiedToEnableMultipleRigidbodies\Samples\\bin\UnitySample.exe
+     1>Done Building Project "D:\_bachelor_project_\MotiveToUnity_v2.23\NatNet_SDK_2.7_UnitySampleModifiedToEnableMultipleRigidbodies\Samples\Unity3D\UnitySample.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.55
