@@ -189,6 +189,8 @@ int _tmain(int argc, _TCHAR* argv[])
                 {
                     sRigidBodyDescription* pRB = &pSK->RigidBodies[j];
 					sprintf (str_temp, "%d%d", pSK->skeletonID, LOWORD(pRB->ID));
+					sprintf (str_temp, "%s", str_temp);
+					printf("  Skeleton gBoneName : %s\n", str_temp);
                     printf("  Skeleton RigidBody Name : %s\n", pRB->szName);
                     printf("  Skeleton RigidBody ID : %d\n", pRB->ID);
                     printf("  Skeleton RigidBody Parent ID : %d\n", pRB->parentID);
@@ -281,7 +283,7 @@ int CreateClient(int iConnectionType)
     theClient = new NatNetClient(iConnectionType);
 
     // [optional] use old multicast group
-    //theClient->SetMulticastAddress("224.0.0.1");
+    //theClient->SetMulticastAddress("239.255.42.99");
 
     // print version info
     unsigned char ver[4];
